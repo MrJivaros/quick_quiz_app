@@ -3,18 +3,23 @@ import './themes/App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { QuestionScreen } from './screens/QuestionsScreen';
 import { InformationScreen } from './screens/InformationScreen';
+import { Provider } from './context/context';
+import { ValidationScreen } from './screens/ValidationScreen';
 
 function App() {
 	return (
-		<div className='App'>
-			<BrowserRouter>
-				<Routes>
-					<Route path='/' element={<HomeScreen />} />
-					<Route path='/questions' element={<QuestionScreen />} />
-					<Route path='/informations' element={<InformationScreen />} />
-				</Routes>
-			</BrowserRouter>
-		</div>
+		<Provider>
+			<div className='App'>
+				<BrowserRouter>
+					<Routes>
+						<Route path='/' element={<HomeScreen />} />
+						<Route path='/questions' element={<QuestionScreen />} />
+						<Route path='/informations' element={<InformationScreen />} />
+						<Route path='/validation' element={<ValidationScreen />} />
+					</Routes>
+				</BrowserRouter>
+			</div>
+		</Provider>
 	);
 }
 

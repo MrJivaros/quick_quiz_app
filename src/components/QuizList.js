@@ -8,7 +8,7 @@ export function QuizList() {
 				<div key={question.id}>
 					<h2> {question.question} </h2>
 					{question.responses.map((response, index) => (
-						<Quiz response={response} key={index} />
+						<Quiz response={response} questionId={question.id} key={index} />
 					))}
 				</div>
 			))}

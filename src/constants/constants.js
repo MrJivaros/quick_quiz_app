@@ -1,6 +1,6 @@
-export const text = `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
-an unknown printer took a galley of type and scrambled it to make a type specimen book.`;
+export const text = `Bienvenu au jeu concours organisé par le consumer Electronics show. Participez au jeu en répondant correctement à 5 questions à choix multiples en rapport avec le CES et gagnez les prix qui sont :
+Un voyage de 3 jours à las Vegas avec entrée au CES pour deux personnes 
+10 drones DJI Mavic2`;
 
 export const terms = `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`;
@@ -30,7 +30,7 @@ export const questions = [
 				title: 'Jack Wayman',
 			},
 		],
-		goodResponse: '',
+		goodResponse: 'C',
 	},
 	{
 		id: 2,
@@ -49,7 +49,7 @@ export const questions = [
 				title: '1967',
 			},
 		],
-		goodResponse: '',
+		goodResponse: 'C',
 	},
 	{
 		id: 3,
@@ -68,7 +68,7 @@ export const questions = [
 				title: 'Chicago',
 			},
 		],
-		goodResponse: '',
+		goodResponse: 'B',
 	},
 	{
 		id: 4,
@@ -88,7 +88,7 @@ export const questions = [
 				title: 'DVD',
 			},
 		],
-		goodResponse: '',
+		goodResponse: 'C',
 	},
 	{
 		id: 5,
@@ -108,6 +108,6 @@ export const questions = [
 				title: 'Pitchs',
 			},
 		],
-		goodResponse: '',
+		goodResponse: 'A',
 	},
 ];
