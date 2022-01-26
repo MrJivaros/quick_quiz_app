@@ -2,8 +2,7 @@ export const text = `Bienvenu au jeu concours organisé par le consumer Electron
 Un voyage de 3 jours à las Vegas avec entrée au CES pour deux personnes 
 10 drones DJI Mavic2`;
 
-export const terms = `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`;
+export const terms = `Le Consumer Electronics Show, le rendez-vous mondial de l’industrie et de la tech, revient en présentiel du 5 au 8 janvier 2022 pour sa 55e édition.`;
 
 export const informations = `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
