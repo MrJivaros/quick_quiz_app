@@ -1,0 +1,43 @@
+.App {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+}
+
+.Text,
+.Image,
+.Btn {
+	margin-bottom: 50px;
+}
+
+.Image {
+	height: 100px;
+	width: 100px;
+	border-radius: 100% !important;
+}
+
+.Btn {
+	width: 70%;
+	font-size: 25px !important;
+	font-weight: bold !important;
+}
+
+.QuizList {
+	flex-direction: column;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.Quiz {
+	justify-content: center !important;
+	display: flex !important;
+	gap: 20px !important;
+	padding: 10% !important;
+}
+
+.Quiz .Text {
+	margin-left: -30%;
+}
