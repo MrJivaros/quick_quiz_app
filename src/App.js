@@ -5,6 +5,7 @@ import { QuestionScreen } from './screens/QuestionsScreen';
 import { InformationScreen } from './screens/InformationScreen';
 import { Provider } from './context/context';
 import { ValidationScreen } from './screens/ValidationScreen';
+import { ResponseScreen } from './screens/ResponseScreen';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 						<Route path='/questions' element={<QuestionScreen />} />
 						<Route path='/informations' element={<InformationScreen />} />
 						<Route path='/validation' element={<ValidationScreen />} />
+						<Route path='/result' element={<ResponseScreen />} />
 					</Routes>
 				</BrowserRouter>
 			</div>

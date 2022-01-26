@@ -1,5 +1,10 @@
 import { Button } from '../components/Button';
+import { useNavigate } from 'react-router-dom';
 export function ValidationScreen() {
+	const navigate = useNavigate();
+	function goToResult() {
+		navigate('/result');
+	}
 	return (
 		<div className='container'>
 			<form>
@@ -34,7 +39,7 @@ export function ValidationScreen() {
 				</div>
 			</form>
 
-			<Button text='ENVOYER' callback={() => {}} />
+			<Button text='ENVOYER' callback={goToResult} />
 		</div>
 	);
 }
